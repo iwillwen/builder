@@ -14,6 +14,7 @@ RUN cd /fec
 # copy config files & install dependencies
 COPY ./package.json ./
 COPY ./yarn.lock ./
+# RUN yarn config set registry https://registry.npm.taobao.org
 RUN yarn install
 
 # expose port
