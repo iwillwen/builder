@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM node:6.10.3-alpine
 MAINTAINER nighca "nighca@live.cn"
 
 WORKDIR /fec
